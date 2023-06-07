@@ -14,7 +14,7 @@ def setup():
 def get_credentials(api_id, environment, registration_access_token):
     answer = get_client_id(api_id, environment, registration_access_token)
     if answer != False:
-       answer2 = get_client_secret(api_id, environment, registration_access_token, answer['client_id'])
+       answer2 = get_client_secret(api_id, environment, answer['registration_access_token'], answer['client_id'])
        return answer2
     else:
         return False

@@ -1,6 +1,6 @@
 # Celia 👩🏻
 
-Célia, que não é Alice, nem Coaf, mas realiza Consultas a Extratos e Lançamentos com Inteligência Artificial.
+Celia, que não é Alice, nem Coaf, mas realiza Consultas a Extratos e Lançamentos com Inteligência Artificial.
 
 # Instalação
 
@@ -16,4 +16,4 @@ Para obter as credenciais execute o comando no terminal:
 python utils/credentials.py
 ```
 
-Preencha as informações solicitadas corretament o resultado vai apresentar o client_id e client_secret.
+Preencha as informações solicitadas corretamente, e o resultado vai apresentar o client_id e client_secret.
